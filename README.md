@@ -75,27 +75,27 @@ También se puede ejecutar desde Visual Studio Code abriendo `Main.java` y presi
 
 ### Caso 1: árbol vacío
 Antes de crear el árbol: 0 nodos y altura -1.
-
+![Caso 1](capturas/caso1.png)
 
 
 ### Caso 2: árbol con un solo nodo
 Solo la raíz: 1 nodo, 1 hoja y altura 0.
-
+![Caso 2](capturas/caso2.png)
 
 
 ### Caso 3: árbol inicial
 Después de crear el árbol: 9 nodos, 5 hojas y altura 3.
-
-
+![Caso 3](capturas/caso3.1.png)
+![Caso 3](capturas/caso3.2.png)
 
 ### Caso 4: insertar un hijo en una posición ocupada
 El intento es rechazado porque la posición ya tiene un hijo.
-
+![Caso 4](capturas/caso4.png)
 
 
 ### Caso 5: grado de FISEI y SOFTWARE
 FISEI tiene grado 2 y SOFTWARE tiene grado 2.
-
+![Caso 5](capturas/caso5.png)
 
 
 ### Resumen
