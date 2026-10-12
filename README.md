@@ -1,8 +1,7 @@
 # T6-ArbolBinario-EspinozaKerly
-# T6 - Árbol Binario en Java
 
 **Asignatura:** Estructura de Datos
-**Nivel:** Tercero - Ingeniería de Software
+**Nivel:** Tercero "B"
 **Estudiante:** Espinoza Kerly
 
 ## 1. Problema
