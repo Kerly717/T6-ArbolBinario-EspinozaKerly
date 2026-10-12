@@ -80,7 +80,6 @@ Antes de crear el árbol: 0 nodos y altura -1.
 
 ### Caso 2: árbol con un solo nodo
 Solo la raíz: 1 nodo, 1 hoja y altura 0.
-
 ![Caso 2](capturas/caso2.png)
 
 
