@@ -12,11 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArbolBinario<String> t = new ArbolBinario<>();
-Nodo<String> r = t.crearRaiz("UNIVERSIDAD");
-t.agregarIzquierdo(r, "FISEI");
-boolean ok = t.agregarIzquierdo(r, "OTRO");
-System.out.println(ok ? "Insertado" : "Rechazado: la posición izquierda ya está ocupada");
         int opcion;
         do {
             System.out.println("\n===== MENÚ =====");
@@ -55,6 +50,8 @@ System.out.println(ok ? "Insertado" : "Rechazado: la posición izquierda ya est�
         sc.close();
     }
 
+    // Arma el árbol inicial: primero la raíz, luego los hijos de cada nivel de arriba hacia abajo.
+    // Se guarda la referencia de cada nodo padre para poder agregarle sus hijos.
     private static void crearArbolInicial() {
         arbol = new ArbolBinario<>();
         raiz = arbol.crearRaiz("UNIVERSIDAD");
@@ -79,6 +76,7 @@ System.out.println(ok ? "Insertado" : "Rechazado: la posición izquierda ya est�
         return n;
     }
 
+    // Búsqueda recursiva por nombre: revisa el nodo, luego el lado izquierdo y después el derecho.
     private static Nodo<String> buscar(Nodo<String> n, String nombre) {
         if (n == null) return null;
         if (n.getDato().equalsIgnoreCase(nombre)) return n;
